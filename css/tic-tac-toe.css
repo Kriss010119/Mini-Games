@@ -7,7 +7,6 @@ body {
     align-items: center;
     height: 100vh;
     background-color: #f8f9fa;
-    cursor: none;
 }
 
 .main {
@@ -28,6 +27,7 @@ body {
     grid-template-rows: repeat(3, 100px);
     gap: 5px;
     margin-top: 20px;
+    cursor: not-allowed;
   }
   
   .cell {
@@ -39,6 +39,7 @@ body {
     justify-content: center;
     font-size: 24px;
     cursor: pointer;
+    cursor: not-allowed;
   }
 
 button {
